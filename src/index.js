@@ -24,6 +24,7 @@ const myTimer = new Timer()
 const TimerView = observer(({ timer }) => <span>Seconds passed: { timer.secondsPassed }</span>)
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     {/* <TimerView timer={ myTimer } /> */ }

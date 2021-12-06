@@ -1,4 +1,4 @@
-import { action, makeObservable, makeAutoObservable, observable } from "mobx"
+import { action, makeObservable, makeAutoObservable, observable, trace } from "mobx"
 import { buyProducts, getAllProducts } from "../api/shop"
 
 
